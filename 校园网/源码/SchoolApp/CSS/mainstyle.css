@@ -1,0 +1,657 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0; margin:0; background:url(../images/bg.gif) repeat-x 0 0 #D6D7A0; color:#111406;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif ;text-align: center;
+	}
+div, h1, h2, h3, h4, h5, img, form, ul, p, dl{
+	padding:0; margin:0;
+	}
+ul{
+	list-style-type:none; font-size:0;
+	}
+.spacer{
+	clear:both; line-height:0; font-size:0;
+	}
+/*--------------< < << 首页header 的css >> > >---------------*/
+#header{
+	width:994px; margin:0 auto; background:url(../images/header_pic.gif) no-repeat 0 0; position:relative;
+	height:280px;
+	}
+
+#header img.logo{
+	display:block; font-size:0; position:absolute; left:49px; top:52px;
+	}
+#header p{
+	position:absolute; font-size:13px; width:194px; height:23px; line-height:23px; text-align:center;
+	background-color:#F7F8D7; color:#111406; left:35px; top:25px; font-weight:normal;
+	}
+#header ul.navi{
+	height:43px; position:absolute; left:245px; top:53px;
+	}
+#header ul.navi li{
+	float:left; border-right:#ECEDB5 1px solid;
+	}
+#header ul.navi li.noborder{
+	 border-right:none;
+	}
+#header ul.navi li a{
+	display:block; padding:0 13px; font-size:11px; font-weight:bold; line-height:43px; background-color:inherit;
+	text-decoration:none; color:#FFFFFF;
+	}
+#header ul.navi li a:hover{
+	background:url(../images/navi_h_bg.gif) repeat-x 0 0;
+	}
+#header ul.navi li a.hover{
+	background:url(../images/navi_h_bg.gif) repeat-x 0 0; cursor:text;
+	}
+#header form{
+	position:absolute; left:647px; top:14px; height:25px;
+	}
+#header form label{
+	padding:0 0 0 32px; margin:0; background:url(../images/search_icon.gif) no-repeat 0 0; width:58px;
+	height:25px; line-height:25px; color:#000000; float:left; font-size:13px; font-weight:bold; background-color:inherit;
+	}
+#header form input.textbox{
+	width:203px; height:21px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+	border-left:#302A14 1px solid; float:left; margin:0 1px 0 0;
+	}
+#header form input.go{
+	width:29px; height:22px; float:left; cursor:pointer; font-size:0; border:none; background:url(../images/go.gif) no-repeat 0 0;
+	}
+#header h1{
+	position:absolute; left:21px; top:171px; font-size:13px; line-height:22px; color:#8AD9D3; font-weight:bold;
+	background-color:inherit;
+	}
+#header h1 span{
+	display:block; font:normal 44px/44px Arial, Helvetica, sans-serif; color:#FFFFFF ; background-color:inherit;
+	}
+#header ul.login{
+	width:98px; position:absolute; right:22px; top:184px;
+	}
+#header ul.login li{
+	display:block; margin:0 0 11px 0;
+	}
+#header ul.login li a{
+	display:block; font-size:0; text-indent:-2000px; text-decoration:none; width:98px; height:25px;
+	}
+#header ul.login li a.sub{
+	background:url(../images/subscripbe.gif) no-repeat 0 0;
+	}
+#header ul.login li a.sub:hover{
+	background:url(../images/subscripbe_h.gif) no-repeat 0 0;
+	}
+#header ul.login li a.loginHer{
+	background:url(../images/login_here.gif) no-repeat 0 0;
+	}
+#header ul.login li a.loginHer:hover{
+	background:url(../images/login_here_h.gif) no-repeat 0 0;
+	}
+
+/*--------------< < <<主页的css >> > >---------------*/
+
+
+#mainHeader{
+    margin:0 auto; background:url(../images/daohang.gif) repeat-x 0 0; position:relative;
+	height:45px;
+	}
+#mainHeader img.logo{
+	display:block; font-size:0; position:absolute; left:49px; top:0px;
+	}
+#mainHeader p{
+	position:absolute; font-size:13px; width:194px; height:23px; line-height:23px; text-align:center;
+	background-color:#F7F8D7; color:#111406; left:35px;  font-weight:normal;
+	}
+#mainHeader ul.navi{
+	height:43px; position:absolute; left:405px; top:0px;
+	}
+#mainHeader ul.navi li{
+	float:left; border-right:#ECEDB5 1px solid;
+	}
+#mainHeader ul.navi li.noborder{
+	 border-right:none;
+	}
+#mainHeader ul.navi li a{
+	display:block; padding:0 13px; font-size:11px; font-weight:bold; line-height:43px; background-color:inherit;
+	text-decoration:none; color:#FFFFFF;
+	}
+#mainHeader ul.navi li a:hover{
+	background:url(../images/navi_h_bg.gif) repeat-x 0 0;
+	}
+#mainHeader ul.navi li a.hover{
+	background:url(../images/navi_h_bg.gif) repeat-x 0 0; cursor:text;
+	}
+
+
+#mainHeader form{
+	position:absolute; left:647px; top:14px; height:25px;
+	}
+#mainHeader form label{
+	padding:0 0 0 32px; margin:0; background:url(../images/search_icon.gif) no-repeat 0 0; width:58px;
+	height:25px; line-height:25px; color:#000000; float:left; font-size:13px; font-weight:bold; background-color:inherit;
+	}
+#mainHeader form input.textbox{
+	width:203px; height:21px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+	border-left:#302A14 1px solid; float:left; margin:0 1px 0 0;
+	}
+
+#mainHeader h1{
+	position:absolute; left:21px; top:171px; font-size:13px; line-height:22px; color:#8AD9D3; font-weight:bold;
+	background-color:inherit;
+	}
+#mainHeader h1 span{
+	display:block; font:normal 44px/44px Arial, Helvetica, sans-serif; color:#FFFFFF ; background-color:inherit;
+	}
+#mainHeader ul.login{
+	width:98px; position:absolute; right:22px; top:184px;
+	}
+#mainHeader ul.login li{
+	display:block; margin:0 0 11px 0;
+	}
+#mainHeader ul.login li a{
+	display:block; font-size:0; text-indent:-2000px; text-decoration:none; width:98px; height:25px;
+	}
+#mainHeader ul.login li a.sub{
+	background:url(../images/subscripbe.gif) no-repeat 0 0;
+	}
+#mainHeader ul.login li a.sub:hover{
+	background:url(../images/subscripbe_h.gif) no-repeat 0 0;
+	}
+#mainHeader ul.login li a.loginHer{
+	background:url(../images/login_here.gif) no-repeat 0 0;
+	}
+#mainHeader ul.login li a.loginHer:hover{
+	background:url(../images/login_here_h.gif) no-repeat 0 0;
+	}
+
+	/*--------------< < << 首页的左部 >> > >---------------*/
+
+
+.main{width:960px; height:500px;margin-right:auto; margin-left:auto; border: 1px solid #FFFFFF;text-align: left; padding:0 auto;}
+.main .left{ width:180px;height:480px;border-right:1px solid #FFFFFF; float:left}
+.main .left .top{width:180px;height:120px;}
+.main .left .top .touxiang{float:left;width:75px;height:100px; background-color:red;}
+.main .left .top .name{float:left;}
+.main .left .dh{width:180px;height:28px;background-color:#C0C0C0;font-size:15px;text-indent:8px; line-height:28px; font-weight:bold;}
+.main .left .midle{width:180px;}
+.main .left .midle li{list-style-type:none; margin-left:3px;margin-top:3px;}
+.main .left .midle li a{
+	display:block; padding:0 3px; font-size:11px; font-weight:bold; background-color:inherit;
+	text-decoration:none; color:#666600;
+}
+/*--------------< < << 首页的中部 >> > >---------------*/
+
+
+.main .center{width:565px;float:left;margin-left:5px;}
+.main .center li{float:left;margin-top:10px;margin-left:5px;list-style-type: none;text-align:center;}
+.main .center li a{
+	display:block; padding:0 3px; font-size:11px; font-weight:bold; line-height:43px; background-color:inherit;
+	text-decoration:none; color:#FFFFFF;
+	}
+.main .center .shuo{width:555px;float:left; border: 1px solid #FFFFFF;background:white;text-align:right;margin-bottom:5px;border-radius:3px;}
+.main .center .shuo P{width:555px;float:left; border: 1px solid #FFFFFF;text-align:left;}
+
+.main .center .form_subtitle{
+	float:left;
+	left:7px;
+	width:500px;
+	height:20px;
+	text-align:left;
+	padding:0 7px 0 7px;
+	color:#FFFFFF;
+	margin:5px;
+	font-size:11px;
+	line-height:20px;
+}
+.main .center .btn-blue{ /*-----------有-------------*/
+	color: #FFF;
+	display: inline-block;
+	background-color: #2E963D;
+	width:80px;
+	 text-align:center;
+	border:0px; 
+	background-color:#6FAAC8;
+	 height:20px; 
+	 line-height:20px;
+	 text-align:center;
+	 font-size:12px; 
+	 cursor:pointer;
+	 color:#fff;
+	 border-radius: 5px;
+	 cursor:pointer;
+ }
+
+.main .center #zhaopian span{
+	float:left;
+	margin:2px;
+	border-radius: 3px;
+}
+.main .center #zhaopian span p a{
+ font-size:10px; line-height:23px; background-color:inherit;
+	text-decoration:none; color:#FFFFFF;
+}
+.main .center #zhaopian img{
+	width:135px;
+	height:165px;
+	border:1px #b2b2b2 dashed;
+	border-radius: 3px;
+}
+
+
+.main .center #globle_form .btn{
+	background-color:#b2b2b2;
+	float:left;
+	width:500px;
+	text-align:center;
+	
+}
+.main .center #globle_form .btn .btn-b{ /*-----------有-------------*/
+	color: #FFF;
+	display: inline-block;
+	background-color: #2E963D;
+	width:80px;
+	 text-align:center;
+	border:0px; 
+	background-color:#6FAAC8;
+	 height:20px; 
+	 line-height:20px;
+	 text-align:center;
+	 font-size:12px; 
+	 cursor:pointer;
+	 color:#fff;
+	 border-radius:5px;
+	 cursor:pointer;
+ }
+.main .center #globle_form .btn  a{
+	display:block;  font-size:11px; font-weight:bold; line-height:23px; background-color:inherit;
+	text-decoration:none; color:#FFFFFF;
+}
+.main .center #globle_form .photo{
+float:left;
+width:500px;
+height:400px;
+background:white;
+
+}
+.main .center #globle_form .photo span{
+margin:15px;
+width:120px;
+height:150px;
+}
+.main .center #list{
+	border: 1px solid #FFFFFF;border-radius:2px;width:555px;float:left;background-color:#E0E0E0;
+}
+#list{
+	border: 1px solid #FFFFFF;border-radius:2px;width:555px;float:left;background-color:#E0E0E0;
+}
+/*--------bowen----------*/
+.main .center .bowen{
+	float:left;
+	width:550px;
+}
+
+/*--------------< < << 首页的右部 >> > >---------------*/
+
+
+.main .right{width:200px; height:550px;float:right;}
+.main .right .friend{
+	width:185px;margin-left:5px;height:100px;border: 1px solid #FFFFFF;margin-top:5px;
+}
+.main .right .friend li{
+	width:180px;height:28px;background-color:#C0C0C0;font-size:15px;text-indent:8px; line-height:28px; font-weight:bold;list-style-type: none;
+}
+
+
+/*--------------< < << What Special In 2007 >> > >---------------*/
+#special{
+	width:954px; margin:5px auto 0 auto; padding:0 20px; background:url(../images/special_bg.gif) repeat-x 0 0 #191919;
+	color:#FFFFFF;
+	}
+#special h2.spea{
+	width:600px; float:left; margin:17px 0 0 0; font:bold 28px/28px Arial, Helvetica, sans-serif; display:block;
+	}
+#special a.spe2007{
+	background:url(../images/speacial2007.gif) no-repeat 0 0; width:351px; height:148px; float:right; font-size:0;
+	text-indent:-2000px; text-decoration:none;
+	}
+#special a.spe2007:hover{
+	background:url(../images/speacial2007_h.gif) no-repeat 0 0;
+	}
+#special dl{
+	width:600px; float:left; margin:9px 0 0 0;
+	}
+#special dl dt{
+	background:url(../images/special_arrow.gif) no-repeat 0 6px; padding:0 0 0 14px; color:#B5B67C; background-color:inherit;
+	font-size:13px; font-weight:bold; line-height:20px; margin:0 0 4px 0;
+	}
+#special dl dt span{
+	color:#fff; background-color:#911515; padding:0 3px;
+	}
+/*--------------< < << bottom body part >> > >---------------*/
+#botBody{/*----####-----*/
+	width:954px; margin:0 auto; padding:0 0 0 0;
+	}
+.comdiv{
+	width:660px !important;
+	height:600px;
+	float:left;
+	margin:0 15px 0 0;
+	background-color:white;
+	border:white 1px solid;
+	border-radius:5px;
+}
+.subdiv{
+	width:225px !important; float:left; margin:0 15px 0 0; background:url(../images/sub_div_bg.gif) repeat-y 0 0 #D6D7A0; color:#5C5C5C;
+	padding:0;
+	}
+
+.subdiv .nomar{
+	margin:0;
+	}
+.subdiv p.top{
+	background:url(../images/sub_div_top.gif) no-repeat 0 0; width:225px; height:13px; font-size:0; padding:0 ; margin:0;
+	display:block;
+	}
+.subdiv p.bot{
+	background:url(../images/sub_div_bot.gif) no-repeat 0 0; width:225px; height:20px; font-size:0; padding:0; margin:0;
+	display:block;
+	}
+.subdiv h2{
+	background:url(../images/member_h2.gif) no-repeat 0 0 #fffffe; margin:0 5px 0 5px; display:block; padding:0 0 0 44px; 
+	height:41px; color:#FFFFFF; font:bold 16px/41px Arial, Helvetica, sans-serif; width:171px;
+	}
+.subdiv h2.event{
+	background:url(../images/latest_h2_bg.gif) no-repeat 0 0; padding:0 0 0 58px; width:157px;
+	}
+.subdiv h2.moreServices{
+	background:url(../images/more_h2_service.gif) no-repeat 0 0; padding:0 0 0 51px; margin-bottom:19px; width:164px;
+	}
+.subdiv h2.testi{
+	background:url(../images/testimonia_h2_bg.gif) no-repeat 0 0; margin-bottom:19px;
+	}
+.subdiv form{
+	margin:0 0 61px 10px; width:194px;
+	}
+.subdiv form label{
+	width:193px; float:left; height:27px; font:normal 10px/27px Arial, Helvetica, sans-serif;
+	}
+.subdiv form input.textbox{
+	width:189px; height:23px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+	border-left:#302A14 1px solid; float:left; margin:0 1px 0 0;
+	}
+.subdiv form input.check{
+	width:16px; height:16px; float:left; margin:10px 7px 0 0;
+	}
+.subdiv form a.reme{
+	font:bold 11px/16px Arial, Helvetica, sans-serif; color:#830808; background-color:#FFFFFF; text-decoration:none; float:left;
+	margin:9px 0 0 0;
+	}
+.subdiv form a.reme:hover{
+	color:#000000; background-color:#FFFFFF;
+	}
+.subdiv form input.loginbut{
+	width:50px; height:16px; float:right; cursor:pointer; font-size:0; border:none;
+	background:url(../images/login_but.gif) no-repeat 0 0; margin:10px 0 0 0;
+	}
+.subdiv .subdiv1{
+	width:192px; margin:15px 0 0 18px;
+	}
+.subdiv h4{
+	color:#830808; background-color:#FFFFFF; font-size:11px; font-weight:normal; line-height:16px; margin:0 2px 0 20px;
+	display:block;
+	}
+.subdiv h4.green{
+	color:#5A6C04; background-color:#FFFFFF; font-size:11px;line-height:16px; margin:0 2px 5px 20px;
+	display:block; font-weight:bold;
+	}
+.subdiv .subdiv1 h3{
+	color:#136C66; background-color:#FFFFFF; font:bold 11px/16px Arial, Helvetica, sans-serif;
+	float:left; width:140px;
+	}
+.subdiv .subdiv1 h4{
+	float:left; width:140px; margin:0; padding:0; font-weight:bold;
+	}
+.subdiv .subdiv1 p{
+	font-size:10px; text-decoration:underline; width:140px; float:left;
+	}
+.subdiv .subdiv1 img{
+	display:block; font-size:0; float:right;
+	}
+.subdiv p.marTop{
+	padding:13px 0 0 0;
+	}
+.subdiv p.more{
+	margin:12px 0 0 160px;
+	}
+.subdiv p.more a{
+	width:50px; height:16px; background:url(../images/more.gif) no-repeat 0 0 #fffffe; text-decoration:none; text-align:center;
+	font-weight:bold; font-size:10px; color:#FFFFFF; display:block;
+	}
+.subdiv p.more a:hover{
+	background:url(../images/more_h.gif) no-repeat 0 0;
+	}
+.subdiv ul.servi{
+	margin:0 0 0 20px; padding:0 0 24px 0;
+	}
+
+.subdiv ul.servi li{
+	display:block; background:url(../images/subdiv_arrow.gif) no-repeat 0 7px; padding:0 0 0 12px; 
+	}
+.subdiv ul.servi li a{
+	text-decoration:underline; font-size:11px; line-height:18px; color:#5C5C5C; background-color:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	}
+.subdiv ul.servi li a:hover{
+	text-decoration:none;
+	}
+.subdiv p.text{
+	font-size:11px; font-weight:bold; line-height:16px; padding:0 0 5px 0; margin: 0 0 0 20px;
+	}
+
+
+ ul.zhuanqu li{display:block; background:url(../images/subdiv_arrow.gif) no-repeat 0 7px; padding:0 0 0 12px; }
+
+ul.zhuanqu li a{
+	text-decoration:underline; font-size:11px; line-height:18px; color:#5C5C5C; background-color:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	}
+/*------显示页面的修改----*/
+.subdiv ul.servi1{
+	margin:0 0 0 12px; padding:0 0 2px 0;
+	}
+
+.subdiv ul.servi1 li{
+	display:block; background:url(../images/subdiv_arrow.gif) no-repeat 0 7px; padding:0 0 0 2px; 
+	}
+.subdiv ul.servi1 li a{
+	text-decoration:underline; font-size:11px; line-height:18px; color:#5C5C5C; background-color:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	}
+
+.subdiv ul.servi1 li a:hover{
+	text-decoration:none;
+	}
+ #botBody .contentxian{float:left;width:705px;height:500px;border:#EEF6CD 1px solid;margin-top:10px;}
+/*------显示页面的修改结束----*/
+.subdiv2{
+	width:225px; float:left; margin:0; background:url(../images/sub_div_bg.gif) repeat-y 0 0 #D6D7A0; color:#5C5C5C;
+	}
+
+.subdiv2 p.top{
+	background:url(../images/sub_div_top.gif) no-repeat 0 0; width:225px; height:13px; font-size:0;
+	}
+.subdiv2 p.bot{
+	background:url(../images/sub_div_bot.gif) no-repeat 0 0; width:225px; height:20px; font-size:0;
+	}
+.subdiv2 h2{
+	background:url(../images/member_h2.gif) no-repeat 0 0 #fffffe; margin:0 5px 0 5px; display:block; padding:0 0 0 44px; 
+	height:41px; color:#FFFFFF; font:bold 16px/41px Arial, Helvetica, sans-serif;
+	}
+.subdiv2 h2.event{
+	background:url(../images/latest_h2_bg.gif) no-repeat 0 0; padding:0 0 0 58px; width:157px;
+	}
+.subdiv2 h2.moreServices{
+	background:url(../images/more_h2_service.gif) no-repeat 0 0; padding:0 0 0 51px; margin-bottom:19px;
+	}
+.subdiv2 h2.testi{
+	background:url(../images/testimonia_h2_bg.gif) no-repeat 0 0; margin-bottom:19px; padding:0 0 0 51px;
+	}
+
+.subdiv2 .subdiv3{
+	width:192px; margin:15px 0 0 18px;
+	}
+.subdiv2 h4{
+	color:#830808; background-color:#FFFFFF; font-size:11px; font-weight:normal; line-height:16px; margin:0 2px 0 20px;
+	display:block;
+	}
+.subdiv2 h4.green{
+	color:#5A6C04; background-color:#FFFFFF; font-size:11px;line-height:16px; margin:0 2px 5px 20px;
+	display:block; font-weight:bold;
+	}
+.subdiv2 .subdiv1 h3{
+	color:#136C66; background-color:#FFFFFF; font:bold 11px/16px Arial, Helvetica, sans-serif;
+	float:left; width:140px;
+	}
+.subdiv2 .subdiv1 h4{
+	float:left; width:140px; margin:0; padding:0; font-weight:bold;
+	}
+.subdiv2 .subdiv1 p{
+	font-size:10px; text-decoration:underline; width:140px; float:left;
+	}
+.subdiv2 .subdiv1 img{
+	display:block; font-size:0; float:right;
+	}
+.subdiv2 p.marTop{
+	padding:13px 0 0 0;
+	}
+.subdiv2 p.more{
+	margin:12px 0 0 160px;
+	}
+.subdiv2 p.more a{
+	width:50px; height:16px; background:url(../images/more.gif) no-repeat 0 0 #fffffe; text-decoration:none; text-align:center;
+	font-weight:bold; font-size:10px; color:#FFFFFF; display:block;
+	}
+.subdiv2 p.more a:hover{
+	background:url(../images/more_h.gif) no-repeat 0 0;
+	}
+.subdiv2 p.text{
+	font-size:11px; font-weight:bold; line-height:16px; padding:0 0 5px 0; margin: 0 0 0 20px;
+	}
+/*--------------< < << Highlights >> > >---------------*/
+#highlight{
+	width:954px; margin:0 auto; padding:16px 0 40px 0;
+	}
+#highlight h2.hight{
+	background:url(../images/higlight_h2.gif) no-repeat 0 0; border-bottom:#EEF6CD 3px solid;
+	font:bold 26px/38px Arial, Helvetica, sans-serif; float:left; width:633px; padding:0 0 0 46px;
+	}
+#highlight h3{
+	font-size:18px; line-height:23px; color:#AE4607; background-color:#D6D7A0; width:686px;
+	float:left; font-weight:normal; padding:15px 0 11px 0;
+	}
+#highlight p.text{
+	width:686px; float:left; padding:0 0 23px 0; font-size:13px; line-height:19px;
+	}
+#highlight p.text strong{
+	color:#0B534E; background-color:#D6D7A0;
+	}
+#highlight form{
+	width:223px; float:right; background:url(../images/newsletter_singup_bg.gif) repeat-y 0 0 #B3B477; 
+	color:#FFFFFF;
+	}
+#highlight form p.top{
+	background:url(../images/newsletter_singup_top.gif) no-repeat 0 0; font-size:0; height:21px;
+	}
+#highlight form p.bot{
+	background:url(../images/newsletter_singup_bot.gif) no-repeat 0 0; font-size:0; height:20px;
+	}
+#highlight form h2{
+	background:url(../images/newsletter_singup_h2.gif) no-repeat 0 0 #B3B477; height:39px; margin:0 2px 0 4px; padding:0 0 0 14px;
+	color:#4D5C0D; font:bold 16px/39px Arial, Helvetica, sans-serif;
+	}
+#highlight form label{
+	height:26px; font:bold 12px/26px Arial, Helvetica, sans-serif; color:#FFFFFF; background-color:#B3B477; margin:0 0 0 18px;
+	}
+#highlight form input.textbox{
+	width:184px; height:23px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+	border-left:#302A14 1px solid;  margin:0 1px 0 18px;
+	}
+#highlight form a.freeRes{
+	background:url(../images/free_register.gif) no-repeat 0 0; height:71px; text-decoration:none; text-indent:-2000px;
+	display:block; margin:11px 0 19px 9px;
+	}
+#highlight form a.freeRes:hover{
+	background:url(../images/free_register_h.gif) no-repeat 0 0;
+	}
+#highlight form input.singup{
+	width:50px; height:16px; cursor:pointer; font-size:0; border:none;
+	background:url(../images/singup.gif) no-repeat 0 0; margin:7px 0 0 155px;
+	}
+
+
+	/*--------------< < << 注册页面Highlight1s >> > >---------------*/
+#highlight1{
+	width:954px; margin:0 auto; padding:16px 0 40px 0;
+	}
+#highlight1 form{
+	width:923px; float:right; background:url() repeat-y 0 0 #B3B477; 
+	color:#FFFFFF;
+	}
+#highlight1 form p.top{
+	font-size:0; height:21px;
+	}
+#highlight1 form p.bot{
+	 font-size:0; height:20px;
+	}
+#highlight1 form h2{
+	 height:39px; margin:0 2px 0 4px; padding:0 0 0 14px;
+	color:#4D5C0D; font:bold 16px/39px Arial, Helvetica, sans-serif;
+	}
+#highlight1 form label{
+	height:26px; font:bold 12px/26px Arial, Helvetica, sans-serif; color:#FFFFFF; background-color:#B3B477; margin:0 0 0 18px;
+	}
+#highlight1 form input.textbox{
+	width:184px; height:23px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+	border-left:#302A14 1px solid;  margin:0 1px 0 18px;
+	}
+#highlight1 form a.freeRes{
+	background:url(../images/free_register.gif) no-repeat 0 0; height:71px; text-decoration:none; text-indent:-2000px;
+	display:block; margin:11px 0 19px 9px;
+	}
+#highlight1 form a.freeRes:hover{
+	background:url(../images/free_register_h.gif) no-repeat 0 0;
+	}
+#highlight1 form input.singup{
+	width:50px; height:16px; cursor:pointer; font-size:0; border:none;
+	background:url(../images/singup.gif) no-repeat 0 0; margin:7px 0 0 155px;
+	}
+/*--------------< < << footer >> > >---------------*/
+#footerbig{
+	background:url(../images/footer_bg.gif) repeat-x 0 0 #2F2F1B; color:#C3C491; padding:22px 0 0 0; 
+	}
+#footer{
+	width:954px; margin:0 auto; padding:0 0 23px 0;
+	}
+#footer p{
+	text-align:center; margin:4px 0 0 0;font-size:11px; line-height:16px;
+	}
+#footer p a{
+	color:#FFFFFF; text-decoration:none;
+	}
+#footer p a:hover{
+	color:#C3C491;
+	}
+#footer ul{
+	margin:0 0 0 214px; height:22px;
+	}
+#footer ul li{
+	float:left; padding:0 3px; font-size:11px; color:#FFFFFF; line-height:22px; background-color:inherit;
+	}
+#footer ul li a{
+	color:#FFFFFF; line-height:22px; background-color:inherit; text-decoration:none;
+	}
+#footer ul li a:hover{
+	color:#C3C491; background-color:inherit;
+	}
+/*--------------< < << 公共部分 >> > >---------------*/
+.hide{display:none;}

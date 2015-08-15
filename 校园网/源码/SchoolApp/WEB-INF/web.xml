@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrintExcelServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.PrintExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajorServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrganServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.OrganServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConcreteServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ConcreteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ArticleServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoworganServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShoworganServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BlogServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.BlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowblogServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShowblogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MatchlistServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MatchlistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowmacthlistServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShowmacthlistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewstuServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.NewstuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewstuuploadServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.NewstuuploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShuoshuoServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShuoshuoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditorServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.EditorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BlogeditorServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.BlogeditorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyblogServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MyblogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowmyblogServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.ShowmyblogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyspeakServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MyspeakServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RenrenServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.RenrenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AboutmeServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.AboutmeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HouseServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.HouseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JoinorganServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.JoinorganServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JoinmatchServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.JoinmatchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajoreditorServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MajoreditorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajordisDelServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MajordisDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajorjsonServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.json.MajorjsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MettingServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MettingServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChatWebSocketServlet</servlet-name>
+    <servlet-class>com.baiyang.lc.websocketservlet.ChatWebSocketServlet</servlet-class>
+        <enabled>false</enabled>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JoinServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.JoinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MettingDelServlet</servlet-name>
+    <servlet-class>cn.edu.jxau.servlet.MettingDelServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>ChatWebSocketServlet</servlet-name>
+    <url-pattern>/ChatWebSocketServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+<error-page>
+      <exception-type>java.lang.Exception</exception-type>
+      <location>/error.jsp</location>
+   </error-page> 
+
+
+
+
+ <welcome-file-list>
+    <welcome-file>ourindex.jsp</welcome-file>
+  </welcome-file-list>
+
+ 
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowServlet</servlet-name>
+    <url-pattern>/ShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrintExcelServlet</servlet-name>
+    <url-pattern>/PrintExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajorServlet</servlet-name>
+    <url-pattern>/MajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrganServlet</servlet-name>
+    <url-pattern>/OrganServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConcreteServlet</servlet-name>
+    <url-pattern>/ConcreteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleServlet</servlet-name>
+    <url-pattern>/ArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoworganServlet</servlet-name>
+    <url-pattern>/ShoworganServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogServlet</servlet-name>
+    <url-pattern>/BlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowblogServlet</servlet-name>
+    <url-pattern>/ShowblogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MatchlistServlet</servlet-name>
+    <url-pattern>/MatchlistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowmacthlistServlet</servlet-name>
+    <url-pattern>/ShowmacthlistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewstuServlet</servlet-name>
+    <url-pattern>/NewstuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewstuuploadServlet</servlet-name>
+    <url-pattern>/NewstuuploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShuoshuoServlet</servlet-name>
+    <url-pattern>/ShuoshuoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditorServlet</servlet-name>
+    <url-pattern>/EditorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogeditorServlet</servlet-name>
+    <url-pattern>/BlogeditorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyblogServlet</servlet-name>
+    <url-pattern>/MyblogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowmyblogServlet</servlet-name>
+    <url-pattern>/ShowmyblogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyspeakServlet</servlet-name>
+    <url-pattern>/MyspeakServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RenrenServlet</servlet-name>
+    <url-pattern>/RenrenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AboutmeServlet</servlet-name>
+    <url-pattern>/AboutmeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HouseServlet</servlet-name>
+    <url-pattern>/HouseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JoinorganServlet</servlet-name>
+    <url-pattern>/JoinorganServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JoinmatchServlet</servlet-name>
+    <url-pattern>/JoinmatchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajoreditorServlet</servlet-name>
+    <url-pattern>/MajoreditorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajordisDelServlet</servlet-name>
+    <url-pattern>/MajordisDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajorjsonServlet</servlet-name>
+    <url-pattern>/MajorjsonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MettingServlet</servlet-name>
+    <url-pattern>/MettingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JoinServlet</servlet-name>
+    <url-pattern>/JoinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MettingDelServlet</servlet-name>
+    <url-pattern>/MettingDelServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

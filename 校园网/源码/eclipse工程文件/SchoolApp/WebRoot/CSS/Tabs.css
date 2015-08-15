@@ -1,0 +1,88 @@
+a{
+color:#d81e7a;
+}
+.clear{
+clear:both;
+}
+
+
+
+
+
+
+/*--------feat_prod_box-----------*/
+
+.feat_prod_box_details{/*-----------有-------------*/
+padding:10px 0 10px 0;
+margin:0 20px 10px 0;
+
+}
+
+/*---------------contact_form------------------*/
+.contact_form{/*-----------有-------------*/
+width:455px;
+float:left;
+padding:5px;
+margin:2px 0 0 5px;
+_margin:2px 0 0 5px;
+border:1px #DFD1D2 dashed;
+position:relative;
+}
+.form_row{/*-----------有-------------*/
+float:left;
+padding:5px 0 5px 0;
+border:1px #DFD1D2 solid;
+_padding:5px 0 5px 0;
+color:#a53d17;
+}
+.form_row img{/*-----------有-------------*/
+float:left;
+
+}
+label.contact{/*-----------有-------------*/
+width:75px;
+float:left;
+font-size:12px;
+text-align:right;
+padding:4px 5px 0 0;
+color: #333333;
+}
+input.contact_input{/*-----------有-------------*/
+width:253px;
+height:18px;
+background-color:#fff;
+color:#999999;
+border:1px #DFDFDF solid;
+float:left;
+}
+textarea.contact_textarea{
+width:253px;
+height:120px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #999999;
+background-color:#fff;
+border:1px #DFDFDF solid;
+float:left;
+}
+
+a.contact{/*-----------有-------------*/
+width:53px;
+height:24px;
+display:block;
+float:right;
+margin:0 0 0 10px;
+background:url(images/contact_bt.gif) no-repeat center;
+text-decoration:none;
+text-align:center;
+line-height:24px;
+color:#fff;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,298 @@
+body {
+	font-family: 微软雅黑
+}
+
+.thumb {
+	padding: 3px;
+	padding-bottom: 0;
+	text-align: center;
+	width: 123px;
+	height: 86px;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumb img {
+	border-radius: 3px;
+}
+
+.thumb-wrap {
+	float: left;
+	margin: 4px;
+	border: 1px solid #dddddd;
+	padding: 4px;
+	cursor: pointer;
+	border-radius: 3px;
+	position: relative;
+}
+
+.thumb-wrap span {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	font: 11px 微软雅黑, Helvetica, sans-serif;
+	width: 126px;
+}
+
+.x-item-over {
+	border: 1px solid #dddddd;
+	background: #efefef url(over.gif) repeat-x left top;
+	padding: 4px;
+}
+
+.x-item-selected {
+	border: 1px solid #99bbe8;
+	background: #eff5fb url(selected.gif) no-repeat right bottom;
+	padding: 4px;
+}
+
+.x-item-selected .thumb {
+	background: transparent;
+}
+
+.dd-tip {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	line-height: 364px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	z-index: 1;
+	display: none;
+}
+
+.thumb-upload-progress {
+	position: absolute;
+	height: 83;
+	width: 123;
+	line-height: 80px;
+	font-size: 12px;
+	text-align: center;
+	z-index: 1;
+	background-color: rgba(204, 204, 204, 0.6);
+	display: none;
+}
+
+.thumb-loading-tip {
+	position: absolute;
+	height: 80px;
+	width: 120px;
+	line-height: 80px;
+	font-size: 12px;
+	text-align: center;
+	z-index: 1;
+}
+
+.thumb-empty-text {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.thumb-empty-text img {
+	padding-top: 3px;
+}
+
+.thumb-viewer {
+	width : 922px;
+	height : 568px;
+	border-radius: 5px;
+	border: #99bbe8 1px solid;
+}
+
+.thumb-viewer-wrap{
+	overflow : auto;
+	position:relative;
+	float : left;
+	width: 720px;
+	height: 480px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(153,
+	187, 232, 0.6) ), color-stop(50%, rgba(153, 187, 232, 0.9) ),
+	color-stop(0%, rgba(153, 187, 232, 0.6) ) );
+}
+
+.thumb-viewer-wrap img{
+	border-radius: 5px;
+}
+
+.thumb-viewer-info{
+	position:relative;
+	border-left: #99bbe8 1px solid;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(153,
+	187, 232, 0.6) ), color-stop(50%, rgba(153, 187, 232, 0.9) ),
+	color-stop(0%, rgba(153, 187, 232, 0.6) ) );
+	color: #ffffff;
+	height: 480px;
+	width: 200px;
+	float : left;
+	padding-top: 30px;
+	padding-left: 6px;
+	font-size: 12px;
+}
+.thumb-viewer-title-tools{
+	position: relative;
+	float: right;
+	width: 100;
+	height: 100%;
+}
+
+.thumb-viewer-close-item{
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+	background: url('close_btn.png') no-repeat;
+	float: right;
+	margin-right: 8px;
+	margin-top: 6px;
+}
+
+
+.thumb-viewer-title-text{
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 5px;
+	font-weight: bolder;
+	color: #ffffff;
+	width: 80%;
+	float: left;
+}
+
+.thumb-viewer-title {
+	height: 40px;
+	width: 100%;
+	cursor: move;
+	border-bottom: #99bbe8 1px solid;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(153,
+		187, 232, 0.6) ), color-stop(50%, rgba(153, 187, 232, 0.9) ),
+		color-stop(0%, rgba(153, 187, 232, 0.6) ) );
+}
+
+.thumb-viewer-toolbar {
+	height:46px;
+	width : 100%;
+	float : left;
+	border-top: #99bbe8 1px solid;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(153,
+		187, 232, 0.6) ), color-stop(50%, rgba(153, 187, 232, 0.9) ),
+		color-stop(0%, rgba(153, 187, 232, 0.6) ) );
+}
+
+.thumb-viewer-toolbar  img {
+	width: 100%;
+	height: 100%;
+	background: transparent url(sprits.png) repeat 0px 496px;
+}
+
+.thumb-viewer-toolbar .toolbar-item {
+	width: 32px;
+	height: 29px;
+	margin: 5px 5px;
+	background: transparent url(sprits.png) no-repeat 0 -192px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.thumb-viewer-toolbar .toolbar-nav {
+	background-position: -33px -192px;
+	vertical-align: middle;
+	width: 55px;
+	height: 35px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-over{
+	background-position: 0px -228px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-over{
+	background-position: -33px -228px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-prev img {
+	background-position: 0px 406px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-prev-click img{
+	background-position: 2px 408px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-prev-disable{
+	cursor: default;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-prev-disable img{
+	background-position: 0px 370px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-next img {
+	background-position: -56px 406px;
+}
+
+.thumb-viewer-toolbar .toolbar-nav-next-click img{
+	background-position: -54px 408px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-zoom-in img{
+	background: transparent url(sprits.png) repeat -34px 0px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-zoom-in-click img{
+	background: transparent url(sprits.png) repeat -32px 2px;
+	background-repeat: no-repeat;
+}
+
+.thumb-viewer-toolbar .toolbar-item-zoom-out img{
+	background: transparent url(sprits.png) repeat -67px 0px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-zoom-out-click img{
+	background: transparent url(sprits.png) repeat -65px 2px;
+	background-repeat: no-repeat;
+}
+
+.thumb-viewer-toolbar .toolbar-item-rotate-left img{
+	background: transparent url(sprits.png) repeat -99px 0px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-rotate-left-click img{
+	background: transparent url(sprits.png) repeat -97px 2px;
+	background-repeat: no-repeat;
+}
+
+.thumb-viewer-toolbar .toolbar-item-rotate-right img{
+	background: transparent url(sprits.png) repeat -133px 0px;
+}
+
+.thumb-viewer-toolbar .toolbar-item-rotate-right-click img{
+	background: transparent url(sprits.png) repeat -131px 2px;
+	background-repeat: no-repeat;
+}
+
+
+.ablum {
+	background: url("photo.png") transparent;
+}
+
+.upload {
+	background: url("picture_save.png") transparent;
+}
+
+.clear {
+	background: url("picture_empty.png") transparent;
+}
+
+.add {
+	background: url("picture_add.png") transparent;
+}
+
+.delete {
+	background: url("picture_delete.png") transparent;
+}
+
+.photos {
+	background: url("photos.png") transparent;
+}
+
+.refresh {
+	background: url("refresh.gif") transparent;
+}
